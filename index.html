@@ -61,153 +61,153 @@
       </div>
     </nav>
     <main>
-      <div id="cancherosCarousel" class="carousel slide">
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#cancherosCarousel"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#cancherosCarousel"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#cancherosCarousel"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="img/pelota red.jpg"
-              class="w-100"
-              alt="Arquero en el pasto"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h1 class="display-6 fw-bold">¡Tu Cancha te Espera!</h1>
-              <p class="lead fw-normal">
-                Reserva canchas de fútbol 5 al instante. Horarios flexibles y
-                las mejores instalaciones.
-              </p>
-            </div>
-          </div>
+      <div
+        class="position-relative overflow-hidden p-0 m-0 text-center hero-imagen-unica"
+      >
+        <img
+          src="img/banderin.jpg"
+          class="w-100 h-100"
+          alt="Cancha de fútbol principal"
+        />
 
-          <div class="carousel-item">
-            <img
-              src="img/luces estadio.webp"
-              class="w-100"
-              alt="Césped de la cancha"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h1 class="display-6 fw-bold">¡Las Mejores Instalaciones!</h1>
-              <p class="lead fw-normal">
-                Calidad garantizada para tu partido: iluminación profesional y
-                césped de primera.
-              </p>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <img
-              src="img/banderin.jpg"
-              class="w-100"
-              alt="Gente jugando al fútbol"
-            />
-            <div class="carousel-caption d-none d-md-block page m=0">
-              <h1 class="display-6 fw-bold">¡Vení estrenala!</h1>
-              <p class="lead fw-normal">
-                Ya esta habilitada la cancha con alfombra de agua
-              </p>
-            </div>
-          </div>
+        <div class="overlay-texto-unica">
+          <h1 class="display-7 fw-bold">Las mejores canchas de la ciudad</h1>
+          <p class="lead fw-normal mt-3">
+            Reserva ahora y juega en instalaciones de primer nivel con
+            iluminación perfecta.
+          </p>
         </div>
 
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#cancherosCarousel"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#cancherosCarousel"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="btn-hero-posicion">
+          <button
+            type="button"
+            class="btn btn-success btn-lg shadow-lg"
+            data-bs-toggle="modal"
+            data-bs-target="#alquilerModal"
+          >
+            ¡Alquila ya!
+          </button>
+        </div>
       </div>
-      <div class="container text-center my-4">
-        <button
-          type="button"
-          class="btn btn-primary btn-lg shadow-sm"
-          data-bs-toggle="modal"
-          data-bs-target="#alquilerModal"
-        >
-          ¡Alquila la Tuya!
-        </button>
-      </div>
-
       <div class="container my-1">
         <hr />
       </div>
 
       <div class="container mb-5">
         <h2 class="text-center mb-4">La Indumentaria que Necesitas</h2>
-        <div class="row text-center">
-          <div class="col-md-6 col-lg-4 mb-4">
-            <div class="card shadow-sm h-100 card-mujer-fondo">
-              <div class="card-body">
-                <h5 class="card-title text-white mb-3">
-                  INDUMENTARIA PARA ELLAS
-                </h5>
-                <p class="card-text text-white mb-4">
-                  Todos los modelos que buscas de las mejores marcas.
-                </p>
-                <a href="#" class="btn btn-outline-light">Ver Catálogo</a>
+
+        <div
+          id="indumentariaCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="5000"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#indumentariaCarousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#indumentariaCarousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#indumentariaCarousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card shadow-lg h-100 card-mujer-fondo">
+                    <div class="card-body">
+                      <h5 class="card-title text-white mb-3">
+                        INDUMENTARIA PARA ELLAS
+                      </h5>
+                      <p class="card-text text-white mb-4">
+                        Todos los modelos que buscas de las mejores marcas.
+                      </p>
+                      <a href="#" class="btn btn-outline-light">Ver Catálogo</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card shadow-lg h-100 card-hombre-fondo">
+                    <div class="card-body">
+                      <h5 class="card-title text-white mb-3">
+                        INDUMENTARIA PARA EL HOMBRE
+                      </h5>
+                      <p class="card-text text-white mb-4">
+                        Camisetas de los mejores clubes y selecciones.
+                      </p>
+                      <a href="#" class="btn btn-outline-light">Ver Catálogo</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card shadow-lg h-100 card-ninos-fondo">
+                    <div class="card-body">
+                      <h5 class="card-title text-white mb-3">
+                        TODO PARA LOS NIÑOS
+                      </h5>
+                      <p class="card-text text-white mb-4">
+                        Las mejores pilchas para los futuros campeones.
+                      </p>
+                      <a href="#" class="btn btn-outline-light">Ver Catálogo</a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 mb-4">
-            <div class="card shadow-sm h-100 card-hombre-fondo">
-              <div class="card-body">
-                <h5 class="card-title text-white mb-3">
-                  INDUMENTARIA PARA EL HOMBRE
-                </h5>
-                <p class="card-text text-white mb-4">
-                  Camisetas de los mejores clubes y selecciones.
-                </p>
-                <a href="#" class="btn btn-outline-light">Ver Catálogo</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-12 col-lg-4 mb-4">
-            <div class="card shadow-sm h-100 card-ninos-fondo">
-              <div class="card-body">
-                <h5 class="card-title text-white mb-3">TODO PARA LOS NIÑOS</h5>
-                <p class="card-text text-white mb-4">
-                  Las mejores pilchas para los futuros campeones.
-                </p>
-                <a href="#" class="btn btn-outline-light">Ver Catálogo</a>
-              </div>
-            </div>
-          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#indumentariaCarousel"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bg-dark rounded-circle"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#indumentariaCarousel"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bg-dark rounded-circle"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
+
       <div
         class="modal fade"
         id="alquilerModal"
